@@ -1,4 +1,3 @@
-/* Style général */
 body {
     font-family: Rosaviro;
     margin: 0;
@@ -17,6 +16,13 @@ header h1 {
     font-size: 2.2em;
     margin: 0;
     font-weight: normal;
+}
+.trait1 {
+    height: 1px; /* Épaisseur du trait */
+    background-color: #000; /* Couleur du trait (noir) */
+    width: 15%; /* Largeur de la ligne */
+    margin: 3px 0; /* Espacement vertical autour */
+    margin-left: 640px;
 }
 
 header p {
@@ -155,13 +161,19 @@ nav a:hover {
 
 
 
-
+.trait2 {
+    height: 1px; /* Épaisseur du trait */
+    background-color: #000; /* Couleur du trait (noir) */
+    width: 50%; /* Largeur de la ligne */
+    margin: 40px 0; /* Espacement vertical autour */
+    margin-left: 350px;
+}
 
 
 
 .lotimages{
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     color: #333;
     text-align: center;
   
@@ -202,10 +214,222 @@ nav a:hover {
     width: 80%;
     height: auto;
     display: block;
-    border: 2px solid #ddd;
+    border: 2px solid #ffffff;
     transition: border-color 0.3s;
  }
  
  .gallery-item img:hover {
     border-color: #333; /* Change border color on hover */
  }
+
+
+
+
+
+
+
+
+ .trait3 {
+    height: 1px; /* Épaisseur du trait */
+    background-color: #000; /* Couleur du trait (noir) */
+    width: 50%; /* Largeur de la ligne */
+    margin: 40px 0; /* Espacement vertical autour */
+    margin-left: 350px;
+}
+
+ 
+.yoko{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
+  
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.image-section {
+    flex: 1;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text-yoko{
+    flex: 2;
+    padding: 20px;
+}
+
+.text-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.text-section p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.evenements {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+ }
+ .trait4 {
+    height: 1px; /* Épaisseur du trait */
+    background-color: #000; /* Couleur du trait (noir) */
+    width: 15%; /* Largeur de la ligne */
+    margin: 20px 0; /* Espacement vertical autour */
+    margin-left: 30px;
+}
+ 
+ .container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+ }
+ 
+ .events {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ 
+ .event {
+    background: #e2e1e1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+ 
+ .event img {
+    max-width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+ }
+ 
+ .event h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+ }
+ 
+ .event p {
+    margin: 5px 0;
+    font-size: 1rem;
+ }
+ 
+ @media (max-width: 768px) {
+    .events {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .event {
+        width: 90%;
+       }
+    }
+ 
+
+
+
+    .body3{
+        margin: 20px;
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        max-width: 1200px;
+      }
+      
+      .contact-section, .newsletter-section {
+        flex: 1;
+    
+      }
+      
+      .contact-section {
+        padding-right: 20px;
+      }
+      
+      .contact-section h2, .newsletter-section h2 {
+        font-size: 1.5em;
+       
+        
+      }
+      
+      .contact-section p, .newsletter-section input {
+        font-size: 1em;
+        margin: 10px 0;
+      }
+      
+      .newsletter-section input {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #dcdcdc;
+        color: black;
+        width: 100%;
+        max-width: 300px;
+        margin-right: 200px;
+        text-align: center;
+      }
+      
+      .social-icons {
+        display: flex;
+        margin-top: 15px;
+      }
+      
+      .social-icons a {
+        margin-right: 10px;
+      }
+      
+      .social-icons img {
+        width: 30px;
+        height: 30px;
+      }
+      
+      .image-section {
+        flex: 1;
+      }
+      
+      .image-section img {
+        max-width: 100%;
+        border-radius: 5px;
+      }

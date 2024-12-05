@@ -6,6 +6,17 @@ body {
     color: #000000;
 }
 
+.language-switcher{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
 /* En-tête */
 header {
     text-align: center;
@@ -22,7 +33,7 @@ header h1 {
     background-color: #000; /* Couleur du trait (noir) */
     width: 15%; /* Largeur de la ligne */
     margin: 3px 0; /* Espacement vertical autour */
-    margin-left: 642px;
+    margin-left: 632px;
 }
 
 header p {
@@ -35,6 +46,7 @@ header p {
     position: relative; /* Crée une base pour positionner le texte */
     width: 100%; /* Ajuste la largeur en fonction de vos besoins */
     max-width: 600px; /* Optionnel : largeur maximale */
+    margin-left: 37px;
   }
   
   .background-image {
@@ -51,7 +63,7 @@ header p {
     font-size: 40px; /* Taille de la police */
     font-weight: normal; /* Style du texte */
     text-align: center;
-    margin-left: 425px;
+    margin-top: 123px;
  }
 
   .text-overlay2 {
@@ -63,19 +75,19 @@ header p {
     font-size: 24px; /* Taille de la police */
     font-weight: bold; /* Style du texte */
     text-align: center;
-    margin-left: 425px;
+    margin-top: 98px;
   }
 
   .text-overlay3 {
     position: absolute;
-    top: 75%; /* Centre le texte verticalement */
+    top: 60%; /* Centre le texte verticalement */
     left: 50%; /* Centre le texte horizontalement */
     transform: translate(-50%, -50%); /* Centre exactement le texte */
     color: white; /* Couleur du texte */
     font-size: 24px; /* Taille de la police */
     font-weight: bold; /* Style du texte */
     text-align: center;
-    margin-left: 425px;
+    
   }
 
 
@@ -90,7 +102,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 300px;
-    padding: 75px 0;
+    padding: 1px;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -99,7 +111,9 @@ nav a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    font-size: larger;
     transition: color 0.3s ease;
+    margin-top: 20px;
 }
 
 nav a:hover {
@@ -166,7 +180,7 @@ nav a:hover {
     background-color: #000; /* Couleur du trait (noir) */
     width: 50%; /* Largeur de la ligne */
     margin: 40px 0; /* Espacement vertical autour */
-    margin-left: 350px;
+    margin-left: 380px;
 }
 
 
@@ -183,18 +197,22 @@ nav a:hover {
  .gallery-section {
     padding: 50px 50px;
  }
- 
- .gallery-section h2 {
+ .gallery-section2 {
+  padding: 50px 50px;
+}
+
+ .boutoncollection h2 {
     font-size: 1.3em;
     font-weight: bold;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-right: 70px;
+  margin-top: 34px;
     display: inline-block;
     padding: 30px 30px;
     background-color: black;
     color: white;
     width: 190px;
     height: 25px;
+    
     
  }
  
@@ -250,6 +268,7 @@ nav a:hover {
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 
 .image-section1{
@@ -434,3 +453,4 @@ nav a:hover {
         max-width: 100%;
         border-radius: 5px;
       }
+

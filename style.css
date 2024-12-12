@@ -173,7 +173,13 @@ nav a:hover {
 
 
 
-
+.trait4 {
+  height: 1px; /* Épaisseur du trait */
+  background-color: #000; /* Couleur du trait (noir) */
+  width: 50%; /* Largeur de la ligne */
+  margin: 40px 0; /* Espacement vertical autour */
+  margin-left: 380px;
+}
 
 .trait2 {
     height: 1px; /* Épaisseur du trait */
@@ -259,12 +265,11 @@ nav a:hover {
  
 .yoko{
   display: flex;
-  flex-direction: row;
-  max-width: 100%;
+  text-align: left;
   margin: 30px auto;
+  margin-right: 86px;
   background-color: #eaeaea;
   border: 1px solid #eaeaea;
-
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -275,9 +280,8 @@ nav a:hover {
   flex: 1;
   background-color: #eaeaea;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 130px;
+  padding: 90px;
 }
 
 .image-section1 img {
@@ -288,8 +292,9 @@ nav a:hover {
 .text-yoko{
   flex: 2;
   padding: 50px;
-  margin-right: 150px;
-  font-size: 25px;
+  margin-right: 80px;
+  font-size: 22px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .text-section h1 {
@@ -315,16 +320,12 @@ nav a:hover {
 .evenements {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
+    font-size: 27px;
+    margin-top: 50px;
     
  }
- .trait4 {
-    height: 1px; /* Épaisseur du trait */
-    background-color: #000; /* Couleur du trait (noir) */
-    width: 15%; /* Largeur de la ligne */
-    margin: 20px 0; /* Espacement vertical autour */
-    margin-left: 30px;
-}
+ 
  
  .container h1 {
     font-size: 2.5rem;

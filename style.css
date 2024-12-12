@@ -17,7 +17,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* En-tête */
+/* En-tÃªte */
 header {
     text-align: center;
     padding: 20px;
@@ -29,7 +29,7 @@ header h1 {
     font-weight: normal;
 }
 .trait1 {
-    height: 1px; /* Épaisseur du trait */
+    height: 1px; /* Ã‰paisseur du trait */
     background-color: #000; /* Couleur du trait (noir) */
     width: 15%; /* Largeur de la ligne */
     margin: 3px 0; /* Espacement vertical autour */
@@ -43,7 +43,7 @@ header p {
 
 
 .image-container {
-    position: relative; /* Crée une base pour positionner le texte */
+    position: relative; /* CrÃ©e une base pour positionner le texte */
     width: 100%; /* Ajuste la largeur en fonction de vos besoins */
     max-width: 600px; /* Optionnel : largeur maximale */
     margin-left: 37px;
@@ -91,12 +91,6 @@ header p {
   }
 
 
-
-
-
-
-
-
 /* Navigation */
 nav {
     display: flex;
@@ -120,7 +114,7 @@ nav a:hover {
     color: #007BFF;
 }
 
-/* Bannière */
+/* BanniÃ¨re */
 .banner {
     background-image: url('background-image.jpg'); 
     background-size: cover;
@@ -174,7 +168,7 @@ nav a:hover {
 
 
 .trait4 {
-  height: 1px; /* Épaisseur du trait */
+  height: 1px; /* Ã‰paisseur du trait */
   background-color: #000; /* Couleur du trait (noir) */
   width: 50%; /* Largeur de la ligne */
   margin: 40px 0; /* Espacement vertical autour */
@@ -182,7 +176,7 @@ nav a:hover {
 }
 
 .trait2 {
-    height: 1px; /* Épaisseur du trait */
+    height: 1px; /* Ã‰paisseur du trait */
     background-color: #000; /* Couleur du trait (noir) */
     width: 50%; /* Largeur de la ligne */
     margin: 40px 0; /* Espacement vertical autour */
@@ -255,7 +249,7 @@ nav a:hover {
 
 
  .trait3 {
-    height: 1px; /* Épaisseur du trait */
+    height: 1px; /* Ã‰paisseur du trait */
     background-color: #000; /* Couleur du trait (noir) */
     width: 50%; /* Largeur de la ligne */
     margin: 40px 0; /* Espacement vertical autour */
@@ -366,19 +360,6 @@ nav a:hover {
     font-size: 1rem;
  }
  
- @media (max-width: 768px) {
-    .events {
-        flex-direction: column;
-        align-items: center;
-    }
- 
-    .event {
-        width: 90%;
-       }
-    }
- 
-
-
 
     .body3{
         margin: 20px;
@@ -455,3 +436,104 @@ nav a:hover {
         border-radius: 5px;
       }
 
+
+
+      @media screen and (max-width: 768px) {
+        nav {
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+        }
+    
+        .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          gap: 20px;
+        }
+        
+  
+        .trait1 {
+          display: none; /* Masque l'Ã©lÃ©ment .trait1 sur les petits Ã©crans */
+      }
+      .trait2 {
+        display: none; /* Masque l'Ã©lÃ©ment .trait1 sur les petits Ã©crans */
+    }
+    .trait3 {
+      display: none; /* Masque l'Ã©lÃ©ment .trait1 sur les petits Ã©crans */
+  }
+  .trait4 {
+    display: none; /* Masque l'Ã©lÃ©ment .trait1 sur les petits Ã©crans */
+  }
+    
+        .gallery-item {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+  
+      
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .text-overlay, .text-overlay2, .text-overlay3 {
+            font-size: 20px;
+        }
+    
+        .content p {
+            font-size: 1em;
+        }
+    
+        .trait1, .trait2, .trait3, .trait4 {
+            margin-left: 0;
+            width: 80%;
+        }
+    
+        .yoko {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .image-section1 {
+            padding: 20px;
+        }
+    
+        .text-yoko {
+            padding: 20px;
+            font-size: 18px;
+            text-align: left;
+        }
+    
+        .event {
+          width: 90%;
+          height: 20%; 
+       }
+       .description h2 p{
+          flex-direction: row;
+          display: flex;
+          flex-wrap: nowrap;
+       }
+ 
+       .event img {
+          max-width: 100%;
+          height: 180px;
+          border-radius: 8px;
+          margin-right: 510px;
+          
+       }
+       .contact {
+          flex-direction: column;
+       }
+    
+       .newsletter-section input {
+          width: 100%;
+          max-width: 100%;
+       }
+       .image-section2 img {
+          max-width: 70%;
+          border-radius: 5px;
+         margin-left: 65px;
+        }
+ 
+    }
